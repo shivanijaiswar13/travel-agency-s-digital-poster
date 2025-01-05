@@ -62,7 +62,29 @@ body{
 }
 .point h3 i{
     color: #124b4d;
+    padding: 5px;
 }
+.timer{
+    display: flex;
+    gap: 5px;
+}
+.timer .A{
+    width: 50px;
+    background:linear-gradient(to top,#124b4d,#388677);
+    border-radius: 20px;
+}
+.A{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    line-height: 15px;
+    padding: 10px;
+}
+.A span{
+    font-size: 10px;
+}
+
 .box2{
     display: flex;
     flex-direction: column;
